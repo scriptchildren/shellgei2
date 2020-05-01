@@ -1,0 +1,6 @@
+size 100x100 xc:skyblue \
+          balloon.gif  -geometry 40x40+5+10   -composite \
+          medical.gif  -geometry      +35+30  -composite \
+          present.gif  -geometry 24x24+62+50  -composite \
+          shading.gif  -geometry 16x16+10+55  -composite \
+          compose_geometry.gif

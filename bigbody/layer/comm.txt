@@ -1,0 +1,4 @@
+ize 500x1000 xc:white \
+\( aaa.jpg -resize 50x50 -repage +50+100 \) \
+\( bbb.jpg -resize 100x100 -repage +100+200 \) \
+-layers flatten final.jpg"

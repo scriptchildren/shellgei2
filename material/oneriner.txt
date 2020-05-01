@@ -1,0 +1,3 @@
+convert -size 800x450 xc:yellow base2.png; \ #背景画像生成
+convert -size 800x450  -fill "#000000" -background none -pointsize 80 caption:hogehoge output888.png; \ #後ろ透過の文字画像生成
+composite -compose over ./output888.png ./base2.png output888.jpg　#これらの画像を合成
